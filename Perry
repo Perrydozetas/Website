@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        #about-me {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+        }
+        #testimonials {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .testimonial {
+            margin: 15px 0;
+            font-style: italic;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 600px;
+        }
+        @media (max-width: 768px) {
+            iframe {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Coaching Journey Starts Here</h1>
+        <p>Empowering you to reach your goals, one step at a time.</p>
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#calendly">Book a Session</a>
+            <a href="#testimonials">Testimonials</a>
+        </nav>
+    </header>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Welcome! I am [Your Name], a dedicated coach passionate about helping you unlock your true potential. 
+        With years of experience and a results-driven approach, I specialize in guiding individuals to achieve 
+        personal and professional growth.</p>
+    </section>
+
+    <section id="calendly">
+        <h2>Book a Session</h2>
+        <p>Ready to take the next step? Schedule a session with me below:</p>
+        <iframe src="https://calendly.com/your-username" title="Schedule a Session"></iframe>
+    </section>
+
+    <section id="testimonials">
+        <h2>What My Clients Say</h2>
+        <div class="testimonial">
+            <p>"[Your Name] transformed my life! Their guidance and insights helped me achieve goals I never thought possible."</p>
+            <strong>- Happy Client</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Professional, empathetic, and incredibly effective. Highly recommended for anyone seeking personal growth."</p>
+            <strong>- Satisfied Customer</strong>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
